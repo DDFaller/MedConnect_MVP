@@ -1,0 +1,91 @@
+[2023-09-21 01:19:42,324] ERROR Exception on /agendamento [POST] - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py L1741
+Traceback (most recent call last):
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_openapi3\scaffold.py", line 127, in view_func
+    response = func(**func_kwargs)
+  File "D:\Workspace\MVP\consultas_medicas\rest_api\app.py", line 49, in post_schedule
+    return add_schedule(form,session)
+  File "D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\add_schedule.py", line 7, in add_schedule
+    schedule = Schedule(
+  File "<string>", line 4, in __init__
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1197, in _declarative_constructor
+    raise TypeError(
+TypeError: 'status' is an invalid keyword argument for Schedule
+[2023-09-21 01:19:42,329] INFO 127.0.0.1 - - [21/Sep/2023 01:19:42] "[35m[1mPOST /agendamento HTTP/1.1[0m" 500 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:01,261] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:01,262] INFO [33mPress CTRL+C to quit[0m - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:14,492] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-21 01:21:14,498] INFO 127.0.0.1 - - [21/Sep/2023 01:21:14] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:16,069] INFO 127.0.0.1 - - [21/Sep/2023 01:21:16] "GET /consultorios?doctor_crm=3804 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:17,461] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-21 01:21:17,466] INFO 127.0.0.1 - - [21/Sep/2023 01:21:17] "GET /encontrar_agendamentos?doctor_crm=3804&clinic=1 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:21:28,784] ERROR Exception on /agendamento [POST] - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py L1741
+Traceback (most recent call last):
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_openapi3\scaffold.py", line 127, in view_func
+    response = func(**func_kwargs)
+  File "D:\Workspace\MVP\consultas_medicas\rest_api\app.py", line 49, in post_schedule
+    return add_schedule(form,session)
+  File "D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\add_schedule.py", line 7, in add_schedule
+    schedule = Schedule(
+  File "<string>", line 4, in __init__
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1197, in _declarative_constructor
+    raise TypeError(
+TypeError: 'status' is an invalid keyword argument for Schedule
+[2023-09-21 01:21:28,789] INFO 127.0.0.1 - - [21/Sep/2023 01:21:28] "[35m[1mPOST /agendamento HTTP/1.1[0m" 500 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:29:51,181] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:29:51,181] INFO [33mPress CTRL+C to quit[0m - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:29:54,858] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-21 01:29:54,863] INFO 127.0.0.1 - - [21/Sep/2023 01:29:54] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:29:57,065] INFO 127.0.0.1 - - [21/Sep/2023 01:29:57] "GET /consultorios?doctor_crm=3804 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:29:58,040] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-21 01:29:58,044] INFO 127.0.0.1 - - [21/Sep/2023 01:29:58] "GET /encontrar_agendamentos?doctor_crm=3804&clinic=1 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:15,978] INFO 127.0.0.1 - - [21/Sep/2023 01:30:15] "POST /agendamento HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:19,731] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-21 01:30:19,733] INFO 127.0.0.1 - - [21/Sep/2023 01:30:19] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:20,674] INFO 127.0.0.1 - - [21/Sep/2023 01:30:20] "GET /consultorios?doctor_crm=3804 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:21,746] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-21 01:30:21,748] INFO 127.0.0.1 - - [21/Sep/2023 01:30:21] "GET /encontrar_agendamentos?doctor_crm=3804&clinic=1 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:58,960] INFO 127.0.0.1 - - [21/Sep/2023 01:30:58] "OPTIONS /agendamento?clinic=1&date=&time=&cpf=14258613770 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:30:58,962] WARNING Deletando agendamento Clinica '1', Date '', Time '', CPF '14258613770' - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\delete_schedule.py L6   
+[2023-09-21 01:30:58,969] WARNING Erro ao remover agendamento Clinica:'1' Dia: '' Horario: '' CPF: '14258613770', Não foi possível excluir o item :/ - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\delete_schedule.py L23  
+[2023-09-21 01:30:58,970] INFO 127.0.0.1 - - [21/Sep/2023 01:30:58] "[31m[1mDELETE /agendamento?clinic=1&date=&time=&cpf=14258613770 HTTP/1.1[0m" 400 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:31:04,908] INFO 127.0.0.1 - - [21/Sep/2023 01:31:04] "OPTIONS /agendamento?clinic=1&date=22/09/2023&time=09:00&cpf=14258613770 HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-21 01:31:04,910] WARNING Deletando agendamento Clinica '1', Date '22/09/2023', Time '09:00', CPF '14258613770' - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\delete_schedule.py L6   
+[2023-09-21 01:31:04,917] WARNING Agendamento não encontrado - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\delete_schedule.py L14  

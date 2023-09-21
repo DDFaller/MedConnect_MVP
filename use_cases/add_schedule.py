@@ -15,7 +15,7 @@ def add_schedule(form,session):
         patient =       form.patient,
         healthcare =    form.healthcare,
         contact =       form.contact,
-        status="Ocuppied"
+        schedule_status = "Ocuppied"
         )
     try:
         # adicionando agendamento

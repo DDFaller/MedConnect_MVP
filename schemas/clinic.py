@@ -19,7 +19,7 @@ def show_clinics(clinics: Clinic):
     for clinic in clinics:
         result.append(show_clinic(clinic))
 
-    return {"doutores":result}
+    return {"clinics":result}
 
 def show_clinic(clinic: Clinic):
     """ Retorna uma representação do produto seguindo o schema definido em

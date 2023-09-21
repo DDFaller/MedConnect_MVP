@@ -16,7 +16,7 @@ class ScheduleSchema(BaseModel):
     clinic_id: str = "-1"
     contact: str = ""
     cpf: str = ""
-    schedule_status = ""
+    schedule_status: str = ""
 
 class DeleteScheduleSchema(BaseModel):
     """ 
