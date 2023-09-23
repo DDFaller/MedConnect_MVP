@@ -4,11 +4,11 @@
 
 Compartilhe seus estudos e aprenda com outras pessoas.
 
-**MedConnect** tem como objetivo conectar e ajudar pessoas a estudarem através do compartilhamento de conteúdos gratuitos na internet de forma estruturada e didática entre usuários. Venha estudar com a comunidade **MedConnect** também! 😉
+**MedConnect** tem como objetivo conectar a pessoas as clínicas médicas, facilitando e agilizando agendamentos.
 
 Projeto desenvolvido para o MVP na Sprint 1 da Pós Graduação de Engenharia de Software da PUC-Rio.
 
-> ⚠️ Para a utilização dessa API em uma aplicação front-end, você pode acessar o repositório da App desse projeto [clicando aqui](https://github.com/MicaelRiboura/learn-with-me-frontend).
+> ⚠️ Para a utilização dessa API em uma aplicação front-end, você pode acessar o repositório da App desse projeto [clicando aqui](https://github.com/DDFaller/MVP_).
 
 ## Executando a API
 
@@ -16,7 +16,7 @@ Projeto desenvolvido para o MVP na Sprint 1 da Pós Graduação de Engenharia de
 ### 1 - Clonando o repositório
 
 ```
-git clone https://github.com/MicaelRiboura/learn-with-me-api.git
+git clone https://github.com/DDFaller/learn-with-me-api.git
 ```
 
 #
@@ -78,4 +78,4 @@ Ao final, cole esse endereço no seu navegador para visualizar a documentação 
 localhost:5000
 ```
 
-> ⚠️ O símbolo *(env)$* é apenas para ilustrar um terminal com o virtualenv ativado, não pertencendo aos comandos apresentados acima.
+
