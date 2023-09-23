@@ -8,7 +8,7 @@ Compartilhe seus estudos e aprenda com outras pessoas.
 
 Projeto desenvolvido para o MVP na Sprint 1 da Pós Graduação de Engenharia de Software da PUC-Rio.
 
-> ⚠️ Para a utilização dessa API em uma aplicação front-end, você pode acessar o repositório da App desse projeto [clicando aqui](https://github.com/DDFaller/MVP_).
+> ⚠️ Para a utilização dessa API em uma aplicação front-end, você pode acessar o repositório da App desse projeto [clicando aqui](https://github.com/DDFaller/MedConnect_MVP).
 
 ## Executando a API
 
@@ -16,7 +16,7 @@ Projeto desenvolvido para o MVP na Sprint 1 da Pós Graduação de Engenharia de
 ### 1 - Clonando o repositório
 
 ```
-git clone https://github.com/DDFaller/learn-with-me-api.git
+git clone https://github.com/DDFaller/Medconnect_MVP.git
 ```
 
 #
