@@ -4,12 +4,10 @@ from sqlalchemy.exc import IntegrityError
 from logger import logger
 from schemas.clinic import show_clinics
 
-def get_clinics_by_doctor(crm,session):    
-    logger.debug(f"Coletando produtos ")
+def get_clinics(session):    
+    logger.debug(f"Coletando clinicas ")
     # fazendo a busca
-
-
-    clinics = session.query(Clinic).join(DoctorClinic,Clinic.id == DoctorClinic.clinic_id).filter(DoctorClinic.doctor_crm == crm).all()
+    clinics = session.query(Clinic).all()
 
     if not clinics:
         # se não há produtos cadastrados

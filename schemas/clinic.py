@@ -4,12 +4,16 @@ from typing import List
 from models.clinic import Clinic 
 
 class ClinicSchema(BaseModel):
+  """ Define como uma clinica a ser inserida deve ser representada
+  """
   id: int = -1
   name: str = "Dr. Frederico"
   address: str = "Nascimento Silva"
 
 class ListClinicSchema(BaseModel):
-    doctors:List[ClinicSchema]
+    """ Define como uma listagem de clinicas sera retornada
+    """
+    clinicas:List[ClinicSchema]
 
 def show_clinics(clinics: Clinic):
     """ Retorna uma representação do produto seguindo o schema definido em

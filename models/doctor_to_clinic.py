@@ -11,8 +11,8 @@ class DoctorClinic(Base):
     __table_args__ = {"schema": "appointment"}
 
 
-    doctor_crm = Column(String(140),ForeignKey('Doctor.crm'),primary_key=True)
-    clinic_id = Column(Integer,ForeignKey('Clinic.id'),primary_key=True)
+    doctor_crm = Column(String(140),primary_key=True)
+    clinic_id = Column(Integer,primary_key=True)
     consults_start = Column(String(140))
     consults_end = Column(String(140))
     estimated_time_per_consult = Column(String(140))

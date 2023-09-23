@@ -6,7 +6,7 @@ def get_schedule_by_doctor_clinic(doctor_crm,clinic_id,session):
     
     logger.warning("Coletando agendamentos")
     agendamentos = session.query(Schedule).filter(Schedule.doctor_crm == doctor_crm).filter(Schedule.clinic_id == clinic_id).all()
-
+    
     if not agendamentos:
         # se não há produtos cadastrados
         return {"agendamentos": []}, 200

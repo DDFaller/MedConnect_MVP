@@ -21,5 +21,6 @@ engine = create_engine(db_url, echo=False)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-# cria as tabelas do banco, caso não existam
-Base.metadata.create_all(engine)
+session.execute("CREATE SCHEMA IF NOT EXISTS appointment")
+session.commit()
+

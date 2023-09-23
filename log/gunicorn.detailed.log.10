@@ -1,0 +1,66 @@
+[2023-09-22 20:39:09,838] INFO 127.0.0.1 - - [22/Sep/2023 20:39:09] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:11,137] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:39:11,140] INFO 127.0.0.1 - - [22/Sep/2023 20:39:11] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:11,623] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:39:11,626] INFO 127.0.0.1 - - [22/Sep/2023 20:39:11] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:30,362] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-22 20:39:30,362] INFO 127.0.0.1 - - [22/Sep/2023 20:39:30] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:31,522] INFO 127.0.0.1 - - [22/Sep/2023 20:39:31] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:32,814] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:39:32,817] INFO 127.0.0.1 - - [22/Sep/2023 20:39:32] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:39:41,856] INFO 127.0.0.1 - - [22/Sep/2023 20:39:41] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:40:14,475] INFO 127.0.0.1 - - [22/Sep/2023 20:40:14] "POST /agendamento HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:40:17,903] INFO 127.0.0.1 - - [22/Sep/2023 20:40:17] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:40:26,738] INFO 127.0.0.1 - - [22/Sep/2023 20:40:26] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:40:27,521] INFO 127.0.0.1 - - [22/Sep/2023 20:40:27] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:40:29,319] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:40:29,321] INFO 127.0.0.1 - - [22/Sep/2023 20:40:29] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:43:18,876] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-22 20:43:18,880] INFO 127.0.0.1 - - [22/Sep/2023 20:43:18] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:43:20,181] INFO 127.0.0.1 - - [22/Sep/2023 20:43:20] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:43:21,597] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:43:21,599] INFO 127.0.0.1 - - [22/Sep/2023 20:43:21] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:43:42,058] INFO 127.0.0.1 - - [22/Sep/2023 20:43:42] "POST /agendamento HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:43:43,916] ERROR Exception on /encontrar_agendamento [POST] - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py L1741
+Traceback (most recent call last):
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspace\MVP\mvp_1\lib\site-packages\flask_openapi3\scaffold.py", line 127, in view_func
+    response = func(**func_kwargs)
+  File "D:\Workspace\MVP\consultas_medicas\rest_api\app.py", line 94, in find_a_schedule
+    schedule_date = datetime.datetime.strptime(schedule_date,'%d/%m/%Y').strftime('%Y-%m-%d')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%d/%m/%Y'
+[2023-09-22 20:43:43,922] INFO 127.0.0.1 - - [22/Sep/2023 20:43:43] "[35m[1mPOST /encontrar_agendamento HTTP/1.1[0m" 500 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:45:28,543] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-22 20:45:28,543] INFO 127.0.0.1 - - [22/Sep/2023 20:45:28] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:45:49,359] INFO 127.0.0.1 - - [22/Sep/2023 20:45:49] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:45:54,733] INFO 127.0.0.1 - - [22/Sep/2023 20:45:54] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:45:56,251] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:45:56,255] INFO 127.0.0.1 - - [22/Sep/2023 20:45:56] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:46:02,401] INFO 127.0.0.1 - - [22/Sep/2023 20:46:02] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:46:18,410] INFO 127.0.0.1 - - [22/Sep/2023 20:46:18] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:46:24,855] INFO 127.0.0.1 - - [22/Sep/2023 20:46:24] "OPTIONS /agendamento HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:46:24,858] INFO 127.0.0.1 - - [22/Sep/2023 20:46:24] "[31m[1mDELETE /agendamento HTTP/1.1[0m" 422 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:46:29,207] INFO 127.0.0.1 - - [22/Sep/2023 20:46:29] "GET /agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:13,600] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:13,601] INFO [33mPress CTRL+C to quit[0m - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:16,556] WARNING Realizando busca por doutores - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_doctors.py L7   
+[2023-09-22 20:49:16,560] INFO 127.0.0.1 - - [22/Sep/2023 20:49:16] "GET /doutores HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:18,457] INFO 127.0.0.1 - - [22/Sep/2023 20:49:18] "POST /encontrar_consultorio HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:19,873] WARNING Coletando agendamentos - call_trace=D:\Workspace\MVP\consultas_medicas\rest_api\use_cases\get_schedule_by_doctor_and_clinic.py L7   
+[2023-09-22 20:49:19,879] INFO 127.0.0.1 - - [22/Sep/2023 20:49:19] "POST /encontrar_agendamentos HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:27,610] INFO 127.0.0.1 - - [22/Sep/2023 20:49:27] "OPTIONS /agendamento HTTP/1.1" 200 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
+[2023-09-22 20:49:27,615] INFO 127.0.0.1 - - [22/Sep/2023 20:49:27] "[31m[1mDELETE /agendamento HTTP/1.1[0m" 422 - - call_trace=D:\Workspace\MVP\mvp_1\lib\site-packages\werkzeug\_internal.py L224 
